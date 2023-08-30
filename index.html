@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>University website</title>
+		<link href="style.css" rel="stylesheet" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300;1,700&family=Roboto:ital,wght@0,300;0,500;0,900;1,300;1,900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header">
+<nav>
+	<a href="#"><img src="images/logo.png"></a>
+	<div class="nav-links" id="navLinks">
+		<i class="fa fa-close" onclick="hidemenu()"></i>
+		<ul>
+			<li><a href="#">HOME</a>
+			<li><a href="#">ABOUT </a>
+			<li><a href="#">COURSE</a>
+			<li><a href="#">BLOG</a>
+			<li><a href="#">CONTACT US</a>	
+
+		</ul>	
+	</div>
+	<i class="fa fa-bars"  onclick="showmenu()"></i>
+</nav>
+
+
+<div class=" text-box">
+	<h1> Nuellative University</h1>
+	<p> Nuellative university is located at Anambra state and its the biggest university 
+	<br> Anambra state with high number of student and qualified lecturers</p>
+<a class="hero-btn" href="#">Visit Us To Know More</a>	
+</div>
+</section>
+
+
+
+
+
+
+
+
+<section class="course">
+	<h1> Courses We Offer</h1>
+	<p>Computer Study, Electronic Health Records, Statistic, Pharmacology etc</p>
+
+<div class="row">
+	<div class="course-col">
+		<h1>Intermediate</h1>
+		<p>Mental health entails a state of well-being. Individuals in this state realise their abilities, can cope with everyday stresses of life, can work productively and contribute to their community </p>
+	</div>
+	
+
+		<hr>
+		
+
+	<div class="course-col">
+		<h1>Degree</h1>
+		<p>Mental health entails a state of well-being. Individuals in this state realise their abilities, can cope with everyday stresses of life, can work productively and contribute to their community </p>
+	</div>
+	
+<hr>
+	<div class="course-col">
+		<h1>Post Graduation</h1>
+		<p>Mental health entails a state of well-being. Individuals in this state realise their abilities, can cope with everyday stresses of life, can work productively and contribute to their community </p>
+	</div>	
+
+
+</div>	
+
+<div>
+
+</section>
+
+
+
+
+
+
+
+
+
+<script>
+	var navLinks = document.getElementById("navLinks");
+	function showmenu() {
+		navLinks.style.right = "0";
+	}
+
+	function hidemenu(){
+		navLinks.style.right = "-200px"
+	}
+</script>	
+
+
+</body>
+</html>
